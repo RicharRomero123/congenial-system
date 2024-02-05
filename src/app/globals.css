@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: #130521;
+  --background-end-rgb: #130521;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#mySwiper .swiper-button-next,
+#mySwiper .swiper-button-prev {
+  color: white; /* Change the arrow colors */
+}
+
+#mySwiper .swiper-pagination-bullet {
+  background-color: #DDD ; /* Change inactive bullet colors */
+}
+
+#mySwiper .swiper-pagination-bullet-active {
+  background-color: white; /* Change active bullet color */
+}
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
